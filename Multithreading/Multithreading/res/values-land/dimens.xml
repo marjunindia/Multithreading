@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="url_checker_input_size">14dp</dimen>
+    <dimen name="url_checker_result_size">9dp</dimen>
+    <dimen name="url_checker_padding_size">15dp</dimen>
+</resources>

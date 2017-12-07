@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="url_good">#228b22</color>
+    <color name="url_forwarded">#ff6600</color>
+    <color name="url_bad">#ff0000</color>
+</resources>

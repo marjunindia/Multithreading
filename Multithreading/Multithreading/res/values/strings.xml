@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multithreading Examples</string>
+    <string name="threading_basics_label">Threading Basics</string>
+    <string name="threading_basics_intro">See DDMS window for output</string>
+    <string name="separate_class_label">Separate Class</string>
+    <string name="implements_interface_label">Main Class Implements Runnable</string>
+    <string name="inner_class_label">Inner Class</string>
+    <string name="race_conditions_label">Race Conditions</string>
+    <string name="no_race_conditions_label">No Race Conditions</string>
+    <string name="try_race_label">Try Race!</string>
+    <string name="url_checker_label">URL Checker</string>
+    <string name="simple_image_downloader_label">Image Downloader (No Threads)</string>
+    <string name="image_downloader1_label">Threaded Image Downloader I</string>
+    <string name="image_downloader2_label">Threaded Image Downloader II</string>
+    <string name="url_prompt">URL:&#160;</string>
+    <string name="urls_prompt">URLs:&#160;</string>
+    <string name="sample_urls">
+        http://www.coreservlets.com/android-tutorial/\n
+        http://www.coreservlets.com/android-tutorial\n
+        http://www.coreservlets.com/android-tutorialQ\n
+        htp://www.coreservlets.com/android-tutorial/
+    </string>
+    <string name="urls_checker_button_text">Check URLs</string>
+    <string name="simple_image_downloader_button_text">Download Image</string>
+    <string name="sample_image">
+         http://6.mshcdn.com/wp-content/uploads/2009/08/the-goat.jpg
+    </string>
+    <string name="image_downloader_button_text">Download Images</string>
+    <string name="sample_images">
+        http://coreservlets.com/images/CSAJSP-Book1Ed.jpg\n
+        http://coreservlets.com/images/CSAJSP-Bulgarian.jpg\n
+        http://coreservlets.com/images/CSAJSP-Chinese.jpg\n
+        http://coreservlets.com/images/CSAJSP-Spanish.jpg
+    </string>
+</resources>

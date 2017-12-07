@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent" 
+              android:layout_height="match_parent">
+    <Button android:text="@string/threading_basics_label" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="switchToThreadingBasics"/>
+    <LinearLayout android:layout_width="match_parent" 
+                  android:layout_height="wrap_content"
+                  android:gravity="center">
+        <Button android:text="@string/race_conditions_label" 
+                android:drawableLeft="@drawable/emo_im_crying"
+                android:layout_width="0dp" 
+                android:layout_weight="50"
+                android:layout_height="wrap_content"
+                android:onClick="switchToRaceConditions"/>
+        <Button android:text="@string/no_race_conditions_label" 
+                android:drawableLeft="@drawable/emo_im_happy"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"  
+                android:onClick="switchToThreadSafe"/>         
+    </LinearLayout>
+    <Button android:text="@string/url_checker_label" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="switchToUrlChecker"/>
+    <Button android:text="@string/simple_image_downloader_label" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="switchToSimpleImageDownloader"/>
+    <Button android:text="@string/image_downloader1_label" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="switchToImageDownloader1"/>
+    <Button android:text="@string/image_downloader2_label" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="switchToImageDownloader2"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" 
+                  android:layout_height="wrap_content">
+        <TextView android:text="@string/urls_prompt"
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/images_to_download" 
+                  android:text="@string/sample_images"
+                  android:textSize="@dimen/urls_input_size"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" 
+                  android:inputType="textMultiLine">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <Button android:text="@string/image_downloader_button_text"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:onClick="downloadImages"/>
+    <HorizontalScrollView android:layout_width="match_parent" 
+                android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/results_region"
+                          android:layout_width="match_parent" 
+                          android:layout_height="wrap_content">
+            </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
